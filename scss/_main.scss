@@ -1,0 +1,75 @@
+main {
+    background-color: #3C1D17;
+    text-align: center;
+    margin-top: 80px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .contenido {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Museo';
+            h2 {
+                color: red;
+                font-size: 50px;
+                font-weight: 600;
+            }
+            p {
+                font-size: 22px;
+                font-weight: 100;
+                max-width: 800px;
+                line-height: 1.9rem;
+                color: #8b8b8b;
+            }
+        }
+        .contenido-2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Museo';
+            margin-top: 40px;
+            h4 {
+                font-size: 25px;
+                font-weight: 600;
+                color: #3C1D17;
+            } 
+            p {
+                max-width: 670px;
+                color: #3c1d17b2;
+                span {
+                    color: #B63D32;
+                }
+                
+            }
+        }
+    }
+    .carrusel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .carrusel-fotos {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            max-width: 1930px;
+            scroll-behavior: smooth;
+            display: flex;
+            overflow: auto;
+                img {
+                    width: 931px;
+                    height: 486px;
+                    object-fit: contain;
+    
+                }
+            
+        }
+    }
+    
+}
+

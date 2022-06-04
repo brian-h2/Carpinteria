@@ -1,2 +1,116 @@
-* {
-  background-color: red; }
+@font-face {
+  font-family: Museo;
+  src: url(../fonts/Museo_Slab_500.otf); }
+
+/*Variables*/
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+header .header-page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../img/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px; }
+  header .header-page img {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 140px;
+    min-width: 50px; }
+  header .header-page .text-page {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Museo"; }
+    header .header-page .text-page h1 {
+      text-align: center;
+      font-size: 55px;
+      font-weight: 600;
+      letter-spacing: 2px; }
+    header .header-page .text-page p {
+      font-size: 28px; }
+
+nav {
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; }
+  nav ul {
+    list-style-type: none;
+    display: flex; }
+    nav ul li {
+      margin-top: 10px;
+      margin-right: 60px;
+      margin-left: 60px; }
+      nav ul li a {
+        display: flex;
+        justify-content: center;
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: "Museo";
+        font-weight: 100; }
+
+main {
+  background-color: #3C1D17;
+  text-align: center;
+  margin-top: 80px;
+  width: 100%;
+  justify-content: center;
+  align-items: center; }
+  main section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    main section .contenido {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: 'Museo'; }
+      main section .contenido h2 {
+        color: red;
+        font-size: 50px;
+        font-weight: 600; }
+      main section .contenido p {
+        font-size: 22px;
+        font-weight: 100;
+        max-width: 800px;
+        line-height: 1.9rem;
+        color: #8b8b8b; }
+    main section .contenido-2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: 'Museo';
+      margin-top: 40px; }
+      main section .contenido-2 h4 {
+        font-size: 25px;
+        font-weight: 600;
+        color: #3C1D17; }
+      main section .contenido-2 p {
+        max-width: 670px;
+        color: #3c1d17b2; }
+        main section .contenido-2 p span {
+          color: #B63D32; }
+  main .carrusel {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    main .carrusel .carrusel-fotos {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      max-width: 1930px;
+      scroll-behavior: smooth;
+      display: flex;
+      overflow: auto; }
+      main .carrusel .carrusel-fotos img {
+        width: 931px;
+        height: 486px;
+        object-fit: contain; }

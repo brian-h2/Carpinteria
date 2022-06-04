@@ -1,3 +1,18 @@
-* {
-    background-color: red;
+
+//Fonts
+@font-face {
+    font-family: Museo;
+    src: url(../fonts/Museo_Slab_500.otf);
 }
+
+/*Variables*/
+
+$font-primary: 'Museo';
+
+
+//Imports
+
+@import "body";
+@import "header";
+@import "nav";
+@import "main";
