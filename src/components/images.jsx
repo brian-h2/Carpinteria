@@ -13,6 +13,8 @@ const ImageGallery = () => {
     loadImages();
   }, []);
 
+  console.log(images)
+
   return (
     <div>
       <h2>Galería de Imágenes</h2>

@@ -1,17 +1,17 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-import { getStorage } from "firebase/storage";
+import { getStorage,ref } from "firebase/storage";
 import { getFirestore } from 'firebase/firestore';
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyATWIy0geANlvGTNOO22EYKHnYwslg7Ido",
-  authDomain: "carpinteria-9ca79.firebaseapp.com",
-  projectId: "carpinteria-9ca79",
-  storageBucket: "carpinteria-9ca79.appspot.com",
-  messagingSenderId: "593717564726",
-  appId: "1:593717564726:web:2d2c8da7e7b2d3aaa4cf97",
-  measurementId: "G-Q4QC8WM8JV"
+  apiKey: "AIzaSyCSEvDdKrYIKCOe56eDVZiYmpWZtzWPZcM",
+  authDomain: "carpinteria-d7167.firebaseapp.com",
+  projectId: "carpinteria-d7167",
+  storageBucket: "carpinteria-d7167.appspot.com",
+  messagingSenderId: "597635052368",
+  appId: "1:597635052368:web:10e2645ad4b0fb4ca2f255",
+  measurementId: "G-S5C1JNL0T5"
 };
 
 const app = initializeApp(firebaseConfig);
