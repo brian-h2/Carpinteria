@@ -1,0 +1,9 @@
+.app{
+    max-width: 1400px;
+    height: 99vh;
+    box-sizing: content-box;
+    overflow: hidden;
+    color: white;
+    margin: 20px auto;
+    background-color: #bababa;
+}

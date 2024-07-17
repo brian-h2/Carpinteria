@@ -1,11 +1,15 @@
+import NavBar from './components/NavBar/navbar'
+import Footer from './components/Footer/footer';
+import RoutesApp from './routes/routes';
 import './App.css'
-import ImageGallery from './components/images'
 
 const App = () => {
   return (
-    <>
-      <ImageGallery/>
-    </>
+    <div className="app">
+      <NavBar />
+      <RoutesApp/>
+      <Footer />
+    </div>
   )
 
 }
