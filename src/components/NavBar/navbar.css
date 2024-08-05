@@ -1,32 +1,47 @@
 .navbar{
     width: 100%;
     display: flex;
-    justify-content: space-around;
-    background-color: sienna;
+    justify-content: space-between;
+    padding: 0px 20px;
+    background-color: var(--color-1);
+    flex-direction: row-reverse;
     align-items: center;
-    gap: 50px;
+    gap: 20px;
     height: 10%;
 }
 
+
 .navbar .navbar-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     display: none;
-    
 }
 
-.navbar .navbar-ul.active{
+.navbar .navbar-ul li{
+    font-size: 28px;
+    padding: 10px;
+}
+
+
+.navbar ul.active{
+    font-size: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
-    gap: 23px;
-    font-size: 15px;
     position: absolute;
-    top:70px;
-    left: 78%;
+    top: 100px;
+    max-height: 20%;
+    left: 73%;
+    background-color: var(--color-3);
+    border-radius: 5%;
 }
 
-.navbar .navbar-title{
+.navbar h2{
     font-size: 30px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    margin-right: 30px;
 }
 
 .navbar .navbar-icon-burguer{
@@ -34,7 +49,26 @@
 }
 
 @media (min-width: 720px) {
+
     .navbar .navbar-ul{
         display: flex;
     }
+
+    .navbar ul.active{
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 100px;
+        max-height: 20%;
+        left: 78%;
+        display: none;
+    }
+
+
+    .navbar-icon-burguer{
+        display: none;
+    }
+
 }

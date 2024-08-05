@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+:root{
+    --color-1:#5a5239;
+    --color-2:#B0926A;
+    --color-3:#e1c78f88;
+    --color-4:#FAE7C9;
+}
+
+*{
+    height: 100%;
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0px;
+}
+
