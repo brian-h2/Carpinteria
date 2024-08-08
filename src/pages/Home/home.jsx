@@ -1,14 +1,15 @@
 import React from 'react'
 import Header from '../../components/Header/header'
 import Body from '../../components/Body/body'
+import { Gallery } from '../Gallery/Gallery'
+import './home.css'
 
-const home = () => {
+const Home = () => {
   return (
-    <>
+    <div className="home">
       <Header/>
-      <Body/>
-    </>
+    </div>
   )
 }
 
-export default home
+export default Home

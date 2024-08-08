@@ -1,8 +1,9 @@
 import React from 'react'
+import { Gallery } from '../../pages/Gallery/Gallery'
 
 const body = () => {
   return (
-    <div><h1>Hola</h1></div>
+    <Gallery/>
   )
 }
 

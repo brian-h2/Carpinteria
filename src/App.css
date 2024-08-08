@@ -1,8 +1,7 @@
 .app{
     max-width: 1400px;
     height: 100%;
-    box-sizing: content-box;
-    overflow: hidden;
+    box-sizing:border-box;
     color: white;
     margin: 0px auto;
     background-color: var(--color-2);

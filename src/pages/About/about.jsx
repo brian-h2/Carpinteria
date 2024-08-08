@@ -1,9 +1,10 @@
 import React from 'react'
+import './about.css'
 
-const about = () => {
+const About = () => {
   return (
-    <div>about</div>
+    <div className='bg-green-900'>about</div>
   )
 }
 
-export default about
+export default About
