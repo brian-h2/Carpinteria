@@ -1,7 +1,5 @@
 import React from 'react'
 import Header from '../../components/Header/header'
-import Body from '../../components/Body/body'
-import { Gallery } from '../Gallery/gallery'
 import './home.css'
 
 const Home = () => {
