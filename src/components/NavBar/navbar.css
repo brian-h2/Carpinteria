@@ -1,4 +1,4 @@
-.navbar{
+.navbar-box{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -7,12 +7,12 @@
     flex-direction: row;
     align-items: center;
     gap: 20px;
-    height: 10%;
+    height: 8%;
     position: fixed;
-    z-index: 2000;
+    z-index: 3000;
 }
 
-.navbar .navbar-ul{
+.navbar-box .navbar-ul{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -20,7 +20,7 @@
     
 }
 
-.navbar .navbar-ul li{
+.navbar-box .navbar-ul li{
     font-size: 28px;
     padding: 10px;
     height: 100%;
@@ -30,12 +30,12 @@
 }
 
 
-.navbar .navbar-ul li:hover{
+.navbar-box .navbar-ul li:hover{
     cursor: pointer;
     color: gray;
 }
 
-.navbar .navbar-ul.active{
+.navbar-box .navbar-ul.active{
     font-size: 10px;
     display: flex;
     flex-direction: column;
@@ -54,25 +54,24 @@
     }
 }
 
-.navbar h2{
+.navbar-box h2{
     font-size: 30px;
-    margin-top: 35px;
     text-transform: uppercase;
     margin-left: 10px;
 }
 
-.navbar .navbar-icon-burguer{
+.navbar-box .navbar-icon-burguer{
     cursor: pointer;
     margin-right: 10px;
 }
 
 @media (min-width: 720px) {
 
-    .navbar .navbar-ul{
+    .navbar-box .navbar-ul{
         display: flex;
     }
 
-    .navbar ul.active{
+    .navbar-box ul.active{
         font-size: 15px;
         display: flex;
         flex-direction: column;

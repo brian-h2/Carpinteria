@@ -1,0 +1,26 @@
+.about{
+    height: 100%;
+    max-height: 50rem;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.about .about-content{
+    text-align: center;
+    margin: auto;
+    max-width: 650px;
+}
+
+.about .about-content h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.about .about-content p{
+    background-color: var(--color-3);
+    margin: 45px 20px;
+    font-size: 25px;
+    font-weight: lighter;
+    padding: 25px 20px 15px 10px;
+    border-radius: 15px;
+}

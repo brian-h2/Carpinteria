@@ -3,7 +3,7 @@ import { Gallery } from '../../pages/Gallery/Gallery'
 
 const body = () => {
   return (
-    <Gallery/>
+   <></>
   )
 }
 

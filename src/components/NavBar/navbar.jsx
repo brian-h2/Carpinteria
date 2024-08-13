@@ -14,12 +14,12 @@ const navbar = () => {
   }
 
   return (
-    <nav className='navbar'>
+    <nav className='navbar-box'>
         <ul className='navbar-ul' ref={menuOptions}>
-          <li><Link to="home" smooth={true} duration={400}>Home</Link></li>
-          <li><Link to="gallery" smooth={true} duration={400}>Gallery</Link></li>
-          <li><Link to="about" smooth={true} duration={400}>About</Link></li>
-          <li><Link to="contact" smooth={true} duration={400}>Contact</Link></li>
+          <li><Link to="home" smooth={false} duration={200}>Home</Link></li>
+          <li><Link to="gallery" smooth={false} duration={200}>Gallery</Link></li>
+          <li><Link to="about" smooth={false} duration={200}>About</Link></li>
+          <li><Link to="contact" smooth={false} duration={200}>Contact</Link></li>
         </ul>
         <h2 className='navbar-title'>Carpinteria</h2>
         <img ref={menuHambur} onClick={mostrarMenu} className="navbar-icon-burguer"src={menu} alt="nav" srcset="" />

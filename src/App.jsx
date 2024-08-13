@@ -11,21 +11,21 @@ import './App.css'
 const App = () => {
   return (
     <div className="app">
-    <NavBar />
-    <Element name='home'>
-      <Home/>
-    </Element>
-    <Element name="gallery">
-      <Gallery/>
-    </Element>
-    <Element name="about">
-      <About/>
-    </Element>
-    <Element name="contact">
-      <Contact/>
-    </Element>
-    <Footer />
-  </div>
+      <NavBar />
+      <Element name='home'>
+        <Home/>
+      </Element>
+      <Element name="gallery">
+        <Gallery/>
+      </Element>
+      <Element name="about">
+        <About/>
+      </Element>
+      <Element name="contact">
+        <Contact/>
+      </Element>
+      <Footer />
+    </div>
   )
 
 }
