@@ -4,9 +4,11 @@
     display: flex;
     justify-content: center;
     align-items: start;
+    flex-direction: column;
     max-width: 1400px;
     margin: auto;
     margin-bottom: 20px;
+    margin-top: 10rem;
 }
 
 .gallery h2{
@@ -18,13 +20,28 @@
     z-index: 2000;
     max-width: 150px;
     height: 38px;
-    top: 54rem;
+    top: 62rem;
     left: 25px;
     right: 25px;
     text-align: center;
     font-weight: bold;
     background-color: var(--color-1);
     border-radius: 5%;
+}
+
+.gallery .gallery-photos{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.gallery .gallery-photos img{
+    margin: 10px;
+    max-width: 350px;
+    max-height: 250px;
 }
 
 

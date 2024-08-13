@@ -43,6 +43,12 @@ const gallery = () => {
             <span class="visually-hidden">Next</span>
           </button>
       </div>
+      <div className="gallery-photos">
+        <img src={Image1} alt="" className='image' srcset="" />
+        <img src={Image1} alt="" className='image' srcset="" />
+        <img src={Image1} alt="" className='image'srcset="" />
+        <img src={Image1} alt="" className='image'srcset="" />
+      </div>
     </div>
   )
 }
