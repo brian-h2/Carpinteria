@@ -30,8 +30,7 @@ export const Gallery = () => {
             <div class="carousel-item">
               <img src={Image1} class="d-block w-100 h-100" alt="..."/>
               <div class="carousel-caption  d-block">
-                <h5>Third slide label</h5>
-                <p class="h-50">Some representative placeholder content for the third slide.</p>
+                
               </div>
             </div>
           </div>
