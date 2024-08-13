@@ -2,7 +2,7 @@ import React from 'react'
 import './gallery.css'
 import Image1 from '../../assets/gallery/armario.jpg'
 
-export const Gallery = () => {
+const gallery = () => {
   return (
     <div className="gallery">
         <h2>Galeria</h2>
@@ -46,3 +46,5 @@ export const Gallery = () => {
     </div>
   )
 }
+
+export default gallery
