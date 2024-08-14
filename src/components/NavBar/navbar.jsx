@@ -17,8 +17,8 @@ const navbar = () => {
     <nav className='navbar-box'>
         <ul className='navbar-ul' ref={menuOptions}>
           <li><Link to="home" smooth={false} duration={200}>Home</Link></li>
-          <li><Link to="gallery" smooth={false} duration={200}>Gallery</Link></li>
           <li><Link to="about" smooth={false} duration={200}>About</Link></li>
+          <li><Link to="gallery" smooth={false} duration={200}>Gallery</Link></li>
           <li><Link to="contact" smooth={false} duration={200}>Contact</Link></li>
         </ul>
         <h2 className='navbar-title'>Carpinteria</h2>

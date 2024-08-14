@@ -15,11 +15,11 @@ const App = () => {
       <Element name='home'>
         <Home/>
       </Element>
-      <Element name="gallery">
-        <Gallery/>
-      </Element>
       <Element name="about">
         <About/>
+      </Element>
+      <Element name="gallery">
+        <Gallery/>
       </Element>
       <Element name="contact">
         <Contact/>

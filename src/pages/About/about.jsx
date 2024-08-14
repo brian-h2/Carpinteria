@@ -8,10 +8,6 @@ const About = () => {
         <h1>Quienes somos?</h1>
         <p>Nos dedicamos a la realizacion de muebles tanto de cocina como vestidores, en una amplia gama de colores con el material melamina, altamente resistente y permanente duracion</p>
       </div>
-      <div></div>
-      <div></div>
-      <div></div>
-
     </div>
   )
 }
