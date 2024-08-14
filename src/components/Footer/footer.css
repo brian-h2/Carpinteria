@@ -1,0 +1,22 @@
+.contact{
+    max-width: 1200px;
+    margin: auto 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    background-color: var(--color-2);
+    border-radius: 2%;
+}
+
+.contact-title h1{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contact-dates{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

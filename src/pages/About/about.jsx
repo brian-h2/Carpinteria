@@ -6,7 +6,7 @@ const About = () => {
     <div className='about'>
       <div className='about-content'>
         <h1>¿Quiénes somos?</h1>
-        <p>Nos dedicamos a la realización de muebles tanto de cocina como vestidores, en una amplia gama de colores con el material melamina, altamente resistente y permanente duración</p>
+        <p>Nos dedicamos a la realización de muebles tanto de cocina,vestidores,baños, sala de estar en una amplia gama de colores con el material melamina, altamente resistente y permanente duración</p>
       </div>
     </div>
   )

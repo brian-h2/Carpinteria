@@ -3,7 +3,14 @@ import './contact.css'
 
 const contact = () => {
   return (
-    <div className='bg-blue-900'>contact</div>
+    <div className="tools">
+      <div className='tools-title'>
+        <h1>Materiales mas utilizados</h1>
+      </div>
+      <div className='tools-dates'>
+        
+      </div>
+    </div>
   )
 }
 

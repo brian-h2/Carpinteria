@@ -3,7 +3,15 @@ import './footer.css'
 
 const footer = () => {
   return (
-    <div style={{ height: '100vh', backgroundColor: 'purple' }}>Footer</div>
+    <div className="contact">
+      <div className='contact-title'>
+        <h1>Pedi tu presupuesto</h1>
+      </div>
+      <div className='contact-dates'>
+        <p><span>Email:</span>brianheredia200309@gmail.com</p>
+        <h2><span>Telefono:</span>+54 9 3525 45-8195</h2>
+      </div>
+    </div>
   )
 }
 

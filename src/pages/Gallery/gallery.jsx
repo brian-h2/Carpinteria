@@ -2,7 +2,7 @@ import React from 'react'
 import './gallery.css'
 import imageGallery3 from '../../assets/gallery/image-gallery-3.jpg'
 import imageGallery2 from '../../assets/gallery/image-gallery-2.jpg'
-import imageGallery1 from '../../assets/gallery/image-gallery.jpg'
+import imageGallery1 from '../../assets/gallery/image-gallery.jpeg'
 import Image2 from '../../assets/gallery/image-2.jpg'
 import Image3 from '../../assets/gallery/image-3.jpg'
 import Image4 from '../../assets/gallery/image-4.jpg'
@@ -23,7 +23,7 @@ const gallery = () => {
               <img src={imageGallery2} class="d-block w-100 h-100" alt="imagen-galleria"/>
             </div>
             <div class="carousel-item">
-              <img src={imageGallery1} class="d-block w-100 h-100" alt="imagen-galleria"/>
+              <img src={imageGallery1} class="d-block w-30 h-50" alt="imagen-galleria"/>
             </div>
             <div class="carousel-item">
               <img src={imageGallery3} class="d-block w-100 h-100" alt="imagen-galleria"/>
