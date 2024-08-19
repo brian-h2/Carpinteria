@@ -23,7 +23,7 @@ const gallery = () => {
               <img src={imageGallery2} class="d-block w-100 h-100" alt="imagen-galleria"/>
             </div>
             <div class="carousel-item">
-              <img src={imageGallery1} class="d-block w-30 h-50" alt="imagen-galleria"/>
+              <img src={imageGallery1} class="d-block w-100 h-50" alt="imagen-galleria"/>
             </div>
             <div class="carousel-item">
               <img src={imageGallery3} class="d-block w-100 h-100" alt="imagen-galleria"/>
