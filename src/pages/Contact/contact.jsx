@@ -1,5 +1,6 @@
 import React from 'react'
 import './contact.css'
+import ToolsUsed from  './ToolsUsed/toolsUsed'
 
 const contact = () => {
   return (
@@ -8,7 +9,7 @@ const contact = () => {
         <h1>Materiales mas utilizados</h1>
       </div>
       <div className='tools-dates'>
-        
+        <ToolsUsed/>
       </div>
     </div>
   )
