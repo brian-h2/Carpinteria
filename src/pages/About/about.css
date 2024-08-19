@@ -14,8 +14,9 @@
 }
 
 .about .about-content h1{
-    font-size: 35px;
+    font-size: 39px;
     font-weight: bold;
+    margin: 1px;
 }
 
 .about .about-content p{

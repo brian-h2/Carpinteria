@@ -20,13 +20,13 @@ const gallery = () => {
           </div>
           <div class="carousel-inner h-100">
             <div class="carousel-item active ">
-              <img src={imageGallery2} class="d-block w-100 h-100" alt="imagen-galleria"/>
+              <img src={imageGallery2} class="d-block" alt="imagen-galleria"/>
             </div>
             <div class="carousel-item">
-              <img src={imageGallery1} class="d-block w-100 h-50" alt="imagen-galleria"/>
+              <img src={imageGallery1} class="d-block" alt="imagen-galleria"/>
             </div>
             <div class="carousel-item">
-              <img src={imageGallery3} class="d-block w-100 h-100" alt="imagen-galleria"/>
+              <img src={imageGallery3} class="d-block" alt="imagen-galleria"/>
             </div>
           </div>
           <button class="carousel-control-prev h-100" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
