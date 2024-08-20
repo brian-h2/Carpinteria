@@ -1,4 +1,13 @@
-{
-    "image-1": "../../assets/tools/1.jpg",
-    "image-2": "../../assets/tools/2.jpg"
-}
+[
+
+    {
+        "id": 1,
+        "direc": "./1.jpg",
+        "alt": "Imagen-1"
+    },
+    {
+        "id": 2,
+        "direc": "2.jpg",
+        "alt": "Imagen-2"
+    }
+]
