@@ -12,9 +12,10 @@
 }
 
 .tools-title h1{
-    font-size: 35px;
+    font-size: 39px;
     font-weight: bold;
     text-align: center;
+    padding: 2px;
 }
 
 .tools-dates{
