@@ -1,12 +1,12 @@
 import React from 'react'
 import './gallery.css'
-import imageGallery3 from '../../assets/gallery/image-gallery-3.jpg'
-import imageGallery2 from '../../assets/gallery/image-gallery-2.jpg'
+import imageGallery3 from '../../assets/gallery/image-gallery-1.jpeg'
+import imageGallery2 from '../../assets/gallery/image-gallery-2.jpeg'
 import imageGallery1 from '../../assets/gallery/image-gallery.jpeg'
-import Image2 from '../../assets/gallery/image-2.jpg'
-import Image3 from '../../assets/gallery/image-3.jpg'
-import Image4 from '../../assets/gallery/image-4.jpg'
-import Image5 from '../../assets/gallery/image-5.jpg'
+import Image2 from '../../assets/gallery/image-2.jpeg'
+import Image3 from '../../assets/gallery/image-3.jpeg'
+import Image4 from '../../assets/gallery/image-4.jpeg'
+import Image5 from '../../assets/gallery/image-5.jpeg'
 
 const gallery = () => {
   return (
