@@ -12,7 +12,7 @@ const gallery = () => {
   return (
     <div className="gallery">
         <h2>Galería</h2>
-      <div id="carouselExampleCaptions" class="carousel slide h-50 w-100 mb-20">
+      <div id="carouselExampleCaptions" class="carousel slide">
           <div class="carousel-indicators h-15">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
