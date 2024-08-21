@@ -4,7 +4,8 @@ import Footer from './components/Footer/footer';
 import Home from './pages/Home/home';
 import About from './pages/About/about';
 import Gallery from './pages/Gallery/gallery'
-import Contact from './pages/Contact/contact'
+import Tools from './pages/Contact/tools'
+
 import './App.css'
 
 
@@ -21,11 +22,12 @@ const App = () => {
       <Element name="gallery">
         <Gallery/>
       </Element>
-      <Element name="contact">
-        <Contact/>
+      <Element name="tools">
+        <Tools/>
       </Element>
-      
-      {/* <Footer /> */}
+      <Element name="footer">
+        <Footer />
+      </Element>
     </div>
   )
 

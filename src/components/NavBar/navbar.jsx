@@ -19,7 +19,8 @@ const navbar = () => {
           <li><Link to="home" smooth={false} duration={200} >Inicio</Link></li>
           <li><Link to="about" smooth={false} duration={200} offset={-150}>Nosotros</Link></li>
           <li><Link to="gallery" smooth={false} duration={200} offset={-60}>Galeria</Link></li>
-          <li><Link to="contact" smooth={false} duration={200} offset={-60}>Contacto</Link></li>
+          <li><Link to="tools" smooth={false} duration={200} offset={-60}>Materiales</Link></li>
+          <li><Link to="footer" smooth={false} duration={200} offset={-60}>Contacto</Link></li>
         </ul>
         <h2 className='navbar-title'>Carpinteria</h2>
         <img ref={menuHambur} onClick={mostrarMenu} className="navbar-icon-burguer"src={menu} alt="nav" srcset="" />

@@ -1,8 +1,8 @@
 import React from 'react'
-import './contact.css'
+import './tools.css'
 import ToolsUsed from  './ToolsUsed/toolsUsed'
 
-const contact = () => {
+const tools = () => {
   return (
     <div className="tools">
       <div className='tools-title'>
@@ -15,4 +15,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default tools
