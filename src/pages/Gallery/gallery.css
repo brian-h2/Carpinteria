@@ -9,7 +9,7 @@
     max-width: 1400px;
     margin: auto;
     margin-bottom: 20px;
-    margin-top: 10rem;
+    margin-top: 3rem;
 }
 
 #carouselExampleCaptions{
@@ -26,8 +26,8 @@
 }
 
 .gallery h2{
-    color: rgb(255, 255, 255);
-    font-size: 39px;
+    color: var(--color-title);
+    font-size: 35px;
     margin: auto ;
     font-size: 40px;
     z-index: 2000;
@@ -37,6 +37,7 @@
     background-color: var(--color-1);
     border-radius: 5%;
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 .gallery .gallery-photos{
