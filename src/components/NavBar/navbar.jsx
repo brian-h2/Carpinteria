@@ -2,6 +2,7 @@ import { Link } from 'react-scroll';
 import React from 'react'
 import { useRef } from 'react'
 import menu from '../../assets/icons/menu.svg'
+import logo from '../../assets/navbar/logo-carpinteria.png'
 import './navbar.css'
 const navbar = () => {
 
@@ -22,7 +23,7 @@ const navbar = () => {
           <li><Link to="tools" smooth={false} duration={200} offset={-60}>Materiales</Link></li>
           <li><Link to="footer" smooth={false} duration={200} offset={-60}>Contacto</Link></li>
         </ul>
-        <h2 className='navbar-title'>Carpinteria</h2>
+        <img ref={menuHambur} onClick={mostrarMenu} className="navbar-icon-logo"src={logo} alt="nav" srcset="" />
         <img ref={menuHambur} onClick={mostrarMenu} className="navbar-icon-burguer"src={menu} alt="nav" srcset="" />
     </nav>
   )
