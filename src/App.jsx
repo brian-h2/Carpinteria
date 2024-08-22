@@ -10,7 +10,13 @@ import './App.css'
 
 
 const App = () => {
+
+  window.onload = function() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  }
+
   return (
+    
     <div className="app">
       <NavBar />
       <Element name='home'>

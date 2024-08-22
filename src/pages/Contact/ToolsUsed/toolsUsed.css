@@ -10,8 +10,27 @@
     padding-right: 5px;
 }
 
-.images img{
+.images .image-container{
+    background-color: #776F6C;
+    border-radius: 5% 5% 2% 2%;
+    padding:  30px 15px;
+}
+
+.images .image-container img{
     max-width: 220px;
     height: 100%;
     border-radius: 5%;
+    transform: translate(0px,-25px);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.299);
+    
+}
+
+.images .image-title{
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
 }

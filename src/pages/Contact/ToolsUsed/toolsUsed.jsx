@@ -15,7 +15,10 @@ const toolsUsed = () => {
   return (
     <div className='images'>
       {images.map((image) => ( 
-        <img key={image.id} src={image.direc} alt={image.direc} />
+        <div key={image.id} className='image-container'>
+          <img src={image.direc} alt={image.direc} />
+          <p className='image-title'>{image.title}</p> 
+        </div>
       ))}
     </div>
   )
