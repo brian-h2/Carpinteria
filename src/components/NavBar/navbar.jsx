@@ -23,7 +23,7 @@ const navbar = () => {
           <li><Link to="tools" smooth={false} duration={200} offset={-60}>Materiales</Link></li>
           <li><Link to="footer" smooth={false} duration={200} offset={-60}>Contacto</Link></li>
         </ul>
-        <img ref={menuHambur} onClick={mostrarMenu} className="navbar-icon-logo"src={logo} alt="nav" srcset="" />
+        <img className="navbar-icon-logo"src={logo} alt="nav" srcset="" />
         <img ref={menuHambur} onClick={mostrarMenu} className="navbar-icon-burguer"src={menu} alt="nav" srcset="" />
     </nav>
   )
