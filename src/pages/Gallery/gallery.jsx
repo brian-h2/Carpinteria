@@ -49,18 +49,6 @@ const gallery = () => {
             <img src={Image5} alt="imagen-5" className='image'srcset="" />
           </div>
         </Slide>
-        {/* <Slide direction='left'>
-            <img src={Image2} alt="imagen-2" className='image' srcset="" />
-          </Slide>
-          <Slide direction='right'>
-            <img src={Image3} alt="imagen-3" className='image' srcset="" />
-          </Slide>
-          <Slide direction='left'>
-          <img src={Image4} alt="imagen-4" className='image'srcset="" />
-          </Slide>
-          <Slide direction='right'>
-          <img src={Image5} alt="imagen-5" className='image'srcset="" />
-          </Slide> */}
       </div>
     </Fade>
   )
