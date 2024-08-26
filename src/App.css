@@ -5,4 +5,5 @@
     color: white;
     margin: 0px auto;
     background-color: var(--color-1);
+    overflow-x: hidden;
 }
