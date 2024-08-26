@@ -4,10 +4,11 @@
     background-color: var(--color-1);
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     flex-direction: column;
     max-width: 1400px;
     margin-bottom: 20px;
+    margin: auto;
     margin-top: 3rem;
 }
 
@@ -20,6 +21,7 @@
 
 #carouselExampleCaptions .carousel-indicators{
     height: 15px;
+    
 }
 
 #carouselExampleCaptions .carousel-inner .carousel-item img{
@@ -48,6 +50,8 @@
     margin: auto;
     margin-top: 10px;
     display: flex;
+    width: 100%;
+    height: 100%;
     align-items: center;
     justify-content: center;
     flex-direction: row;
@@ -76,8 +80,13 @@
         margin-top: 150px;
     }
 
+    #carouselExampleCaptions{
+        max-width: 1200px;
+        
+    }
+
     #carouselExampleCaptions .carousel-indicators{
-        height: -250px;
+        margin: -140px auto;
     }
     
 
@@ -85,8 +94,24 @@
         width: 100%;
         height: 100%;
         height: 35rem;
-        max-width: 55rem;
+        
     }
+}
+
+@media (min-width: 1200px) {
+
+    #carouselExampleCaptions{
+        margin-bottom: 150px;
+        
+    }
+
+    #carouselExampleCaptions .carousel-inner .carousel-item img{
+        width: 100%;
+        height: 100%;
+        height: 40rem;
+        
+    }
+    
 }
 
 
