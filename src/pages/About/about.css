@@ -9,7 +9,7 @@
 .about .about-content{
     text-align: center;
     margin: auto;
-    max-width: 650px;
+    max-width: 550px;
 }
 
 .about .about-content h1{
@@ -27,5 +27,28 @@
     padding: 25px 20px 15px 10px;
     border-radius: 15px;
     color: white;
+    
+}
+
+@media (min-width: 1200px) {
+
+    .about .about-content{
+        max-width: 850px;
+    }
+
+    .about .about-content h1{
+        font-size: 45px;
+        
+    }
+
+    .about .about-content p{
+        font-size: 30px;
+        padding: 30px 15px 30px 15px;
+        
+    }
+
+    
+
+
     
 }
