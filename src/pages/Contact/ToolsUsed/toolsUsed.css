@@ -34,3 +34,9 @@
     color: rgb(255, 255, 255);
     letter-spacing: 2px;
 }
+
+@media (min-width: 1200px) {
+    .images{
+        max-width: 1000px;
+    }
+}

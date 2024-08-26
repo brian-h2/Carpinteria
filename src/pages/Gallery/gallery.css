@@ -118,6 +118,10 @@
         max-width: 340px;
         max-height: 250px;
     }
+
+    .gallery h2{
+        font-size: 45px;
+    }
     
 }
 
