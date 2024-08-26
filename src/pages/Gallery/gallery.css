@@ -86,7 +86,7 @@
     }
 
     #carouselExampleCaptions .carousel-indicators{
-        margin: -140px auto;
+        margin: -180px auto;
     }
     
 
@@ -104,6 +104,14 @@
         margin-bottom: 150px;
         
     }
+
+    #carouselExampleCaptions .carousel-control-prev{
+     margin-top: 120px;
+   }
+
+   #carouselExampleCaptions .carousel-control-next{
+    margin-top: 120px;
+   }
 
     #carouselExampleCaptions .carousel-inner .carousel-item img{
         width: 100%;
