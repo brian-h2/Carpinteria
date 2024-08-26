@@ -111,6 +111,13 @@
         height: 40rem;
         
     }
+
+    .gallery .gallery-photos img{
+        margin: 20px;
+        width: 100%;
+        max-width: 340px;
+        max-height: 250px;
+    }
     
 }
 
