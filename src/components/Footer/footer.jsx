@@ -14,8 +14,8 @@ const footer = () => {
           <h1>Contactanos</h1>
         </div>
         <div className='footer-dates'>
-          <p><span>Email:</span>brianheredia200309@gmail.com</p>
-          <h2><span>Telefono:</span>+54 9 3525 45-8195</h2>
+          <p><span>Email:</span>fabianheredia768@gmail.com</p>
+          <h2><span>Telefono:</span>+54 9 3525 55-5443</h2>
         </div>
       </div>
     </div>
