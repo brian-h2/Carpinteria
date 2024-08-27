@@ -1,11 +1,8 @@
 .footer{
-    max-width: 1200px;
-    padding-bottom: 35px;
     height: 15rem;
     margin: auto;
     margin-top: 30px;
-    padding: 10px;
-    
+    max-width: 100%;
 }
 
 .footer-elements{
@@ -13,7 +10,6 @@
     margin-bottom: 20px;
     height: 85%;
     width: 100%;
-    max-width: 1200px;
     min-width: 20%;
     display: flex;
     flex-direction: column;
@@ -24,7 +20,6 @@
     background-color: #776F6C;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-radius: 2%;
 }
 
 .footer-elements img{
@@ -52,6 +47,11 @@
 }
 
 @media (min-width: 1200px) {
+
+    .footer{
+        width: 100%;
+    }
+
     .footer-title h1{
         font-size: 40px;
     }
