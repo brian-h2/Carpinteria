@@ -1,8 +1,11 @@
-# React + Vite
+## Pagina web de Carpinteria para cliente
+##### El cliente pidio una mini web donde se mostrase un poco su trabajo, descripcion de lo que hace y como contactarlo.
+---
+#### Features:
+   - Uso de vite para inicializar la aplicacion con react y javascript.
+   - Creacion de las distintas rutas en la misma aplicacion, ya que es una SPA.
+   - Implementacion de estructuras para cada seccion con sus respectivos estilos
+   - Proximamente....
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### Despliegue: 
+-   https://carpinteria-amber.vercel.app/
